@@ -1,0 +1,132 @@
+:root {
+  --fondo-oscuro: #0f0f0f;
+  --Charcoal-Slate: #2c3c3c;
+  --Cognac-Brown:#8b5e3c;
+  --Ash-Silver:#b8b8b8;
+  --Bone-White: #f2f1ef;
+  --Brass-Gold: #c9a86b;
+  --Blanco: #ffffff;
+ 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* fonts */
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Light.ttf");
+  font-weight: normal;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: white;
+}
+
+/* textos */
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", monospace;
+}
+h1 {
+  font-size: 50px;
+}
+
+header {
+  background-color: var(--fondo-oscuro);
+  padding: 20px 0;
+}
+header {
+  background-color: var(--fondo-oscuro);
+  padding: 20px 0;
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid transparent;
+  padding-left: 10px;
+}
+
+nav ul li a:hover {
+  color: var(--Brass-Gold);
+  border-color: var(--Brass-Gold);
+}
+
+/* Banner */
+.banner {
+  height: 75vh;
+  background-image: url(../IMG/bannerBarberia.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  display: flex;
+  align-items: end;
+}
+
+.banner .btn {
+  margin-right: 10px;
+}
+
+/* Buttons */
+.btn{
+    text-decoration: none;
+    color: var(--Blanco); 
+}
+.btn a {
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn.btn-primary {
+  background-color: var(--fondo-oscuro);
+  border-color: var(--Brass-Gold);
+  border-radius: 0;
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--fondo-oscuro);
+  border-color: var(--Brass-Gold);
+}
+
+.btn.btn-outline-primary {
+  background-color: var(--fondo-oscuro);
+  border-color: var(--Brass-Gold);
+  border-radius: 0;
+ 
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: var(--fondo-oscuro);
+  border-color: var(--Brass-Gold);
+  color: white;
+  
+}
+/* Seccion Sobre Nosotros */
+#sobreNosotros {
+  background-color: var(--fondo-oscuro);
+  padding: 70px ;
+}
+
+#sobreNosotros h3{
+    color : var(--Brass-Gold);
+}
+
+#sobreNosotros #textos{
+    padding: 0 70px;
+}
