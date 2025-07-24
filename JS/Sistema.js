@@ -5,27 +5,27 @@ class Sistema{
             new Barbero("0","Lucas","Pereira",
                 "Especialista en cortes clásicos y fades",
                 "Con más de 10 años de experiencia, Lucas domina los cortes tradicionales y los estilos modernos con una precisión impecable. Su lema: “Un buen corte comienza con una buena conversación"
-                ,"IMG/barbero0.png"),
+                ,"IMG/Barberos/barbero0.png"),
             new Barbero("1","Mateo","Silva",
                 "Barbero urbano y estilista de barbas",
                 "Apasionado por los detalles y las tendencias urbanas, Mateo es el indicado si buscás un look actual y bien definido. También es experto en perfilado de barbas y cuidados masculinos.",
-                "IMG/barbero1.png"),
+                "IMG/Barberos/barbero1.png"),
             new Barbero("2","Franco","Cabrera",
                 "Técnico en grooming masculino",
                 "Franco combina técnicas de barbería con asesoramiento en imagen. Siempre atento a la estética del cliente, ofrece una experiencia completa: corte, barba y estilo.",
-                "IMG/barbero2.png"),
+                "IMG/Barberos/barbero2.png"),
             new Barbero("3","Joaquín","Torres",
                 "Maestro en cortes modernos y freestyle",
                 "Creativo y detallista, Joaquín destaca por sus diseños personalizados y cortes con estilo. Si buscás algo único, él es tu barbero.",
-                "IMG/barbero3.png"),
+                "IMG/Barberos/barbero3.png"),
             new Barbero("4","Diego","Ramírez",
                 "Clásico con un toque moderno",
                 "Diego respeta las raíces de la barbería tradicional, pero con una mirada fresca. Su especialidad son los cortes ejecutivos y los afeitados al ras.",
-                "IMG/barbero4.png"),
+                "IMG/Barberos/barbero4.png"),
             new Barbero("5","Bruno","Álvarez",
                 "Barbero joven con talento y actitud",
                 "Aunque joven, Bruno ya se ha ganado la confianza de muchos clientes por su precisión, estilo y trato cercano. Siempre listo para renovar tu imagen.",
-                "IMG/barbero5.png")
+                "IMG/Barberos/barbero5.png")
         ]
         // PRECARGA SERVICIOS
         this.servicios = [

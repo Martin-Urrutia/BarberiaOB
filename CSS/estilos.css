@@ -130,3 +130,9 @@ nav ul li a:hover {
 #sobreNosotros #textos{
     padding: 0 70px;
 }
+
+/* Barberos */
+#barberos {
+  background-color: var(--Cognac-Brown);
+  padding: 70px;
+}

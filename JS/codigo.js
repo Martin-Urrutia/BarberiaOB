@@ -58,10 +58,10 @@ function mostrarBarberos() {
         <td>${barberoActual.nombre + " " + barberoActual.apellido}</td>
         <td>${barberoActual.lema}</td>
         <td>
-          <p>${servicioActual.descripcion}</p>
+          <p>${barberoActual.descripcion}</p>
         </td>
         <td>
-          <img src="${servicioActual.foto}" />
+          <img src="${barberoActual.foto}" />
         </td>
       </tr>`;
   }
